@@ -34,7 +34,7 @@ jobs:
       # Node is used in the deployment script to extract the numeric version
       # from packages/validator/package.json.
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: ${{ matrix.node-version }}
 
